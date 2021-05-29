@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title{
+display: flex;
+margin-top: 3rem;
+margin-left: 22rem;
+font-size: 35px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+}
+
+/*START OF MEMORY BOARD*/
+.memory-board {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 8rem 0rem 1rem;
+    width: 60%;
+}
+.card {
+    padding: 1rem;
+    margin: .5rem;
+    border: 1px black solid;
+    width: 13em;
+    height: 10em;
+    border-radius: .5em;
+}
+/*END OF MEMORY BOARD*/
+
+/*START OF SCORE BOARD*/
+.score-container {
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 1em;
+    width: 18em;
+    height: 26em;
+}
+
+.score {
+margin: 1rem;
+}
+
+.high-score {
+margin: 1rem;
+}
+
+.timer {
+margin: 1rem;
+}
+
+/*END OF SCORE BOARD*/
