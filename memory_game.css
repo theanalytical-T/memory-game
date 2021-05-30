@@ -3,11 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+background-color: #d8f3fc;
+}
+
+h2 {
+    font-family: 'Sigmar One', cursive;
+}
+
+img {
+    width: 10em;
+    height: 10em;
+}
+
 .title{
 display: flex;
-margin-top: 3rem;
-margin-left: 22rem;
+margin-top: 2rem;
+margin-left: 16.1rem;
 font-size: 35px;
+font-family: 'Sigmar One', cursive;
 }
 
 .game-container {
@@ -19,17 +34,94 @@ font-size: 35px;
 .memory-board {
     display: flex;
     flex-wrap: wrap;
-    margin: 5rem 8rem 0rem 1rem;
+    margin: 2rem 8rem 0rem 1rem;
     width: 60%;
 }
+
 .card {
+     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1rem;
     margin: .5rem;
-    border: 1px black solid;
+    border: 1px white solid;
     width: 13em;
     height: 10em;
     border-radius: .5em;
+background-color: #3745c0;
 }
+/* 
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 /*END OF MEMORY BOARD*/
 
 /*START OF SCORE BOARD*/
